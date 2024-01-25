@@ -1,6 +1,6 @@
 const controls = document.querySelector('.photo-card-controls');
 const cardContainer = document.querySelector('.photo-card-container');
-cardContainer.computedStyleMap.scrollBehavior = "smooth";
+cardContainer.style.scrollBehavior = "smooth";
 
 controls.addEventListener('click', makeNextOrPrev);
 
