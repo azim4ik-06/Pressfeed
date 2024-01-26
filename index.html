@@ -39,22 +39,24 @@
             </li>
           </ul>
           <p class="nav">Академия</p>
-          <p class="nav_ ms-2 ">Сделать все за меня</p>
+          <p class="nav_">Сделать все за меня</p>
         </div>
-        <button type="button" class="btn position-relative">
-          <img src="img/Vector.svg" alt="">
-          <img src="img/Ellipse 106.svg" class="position-absolute ellipse">
-            <span class="num position-absolute">1</span>
-        </button>
-          <button type="button" class=" ms-5 btn btn-primary">Регистрация</button>
-          <p class="enter">Вход</p>
+        <div class="nav-title">
+          <button type="button" class="btn position-relative">
+            <img src="img/Vector.svg" alt="">
+            <img src="img/Ellipse 106.svg" class="position-absolute ellipse">
+              <span class="num position-absolute">1</span>
+          </button>
+            <button type="button" class=" ms-5 btn btn-primary">Регистрация</button>
+            <p class="enter">Вход</p>
+          </div>
       </div>
     </nav>
   </div>
   <div class="header-text">
-    <div class="container">
-      <div class="row">
-        <div class="col col-lg-6 col-md-12 col-sm-12">
+    <div class="container width-container">
+      <div class="row max-col-width">
+        <div class="col col-lg-6 col-md-12  col-sm-12 header_text">
           <h1 class="header">Куратор Pressfeed</h1>
           <p class="text-item">Специалист по работе со СМИ, который
                позаботится о вашем результате и возьмет на 
@@ -116,9 +118,10 @@
     </div>
   </div>
 
-  <div class="container position-relative">
+  <div class="container width-container position-relative">
       <h1 class="middle-text">Как это работает:</h1>
-      <img src="img/Vector 42.svg" class="line " alt="">
+      <img src="img/Vector 42.svg" class="line d-none d-lg-block" alt="">
+      <img src="img/Vector 43.svg" class="line d-none d-md-block d-lg-none" alt="">
       <div class="text position-absolute">
           <p><span>1.</span> Куратор поможет разработать план работы на Pressfeed под ваши задачи</p>
           <div class="position-absolute frame">
@@ -158,37 +161,43 @@
   </div>
 
   <div class="format-publication">
-    <h1 class="fw-bold">Форматы публикаций</h1>
+    <h1 class="fw-bold format-text">Форматы публикаций</h1>
     <div class="row mt-4">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img src="img/image-1.png" class="border border-black img-publication rounded-4" alt="">
-        <div class="card-header">
-          <h3 class="pt-3 text-primary fw-bold">Комментарии</h3>
-          <p class="text-publication">- это краткое мнение эксперта по вопросу размером
-            <span class="fw-bold">до 2000 знаков</span>. Комментарии - самый популярный
-            вид запроса на Pressfeed.
-          </p>
+        <div class="card border-0 card-color">
+          <img src="img/image-1.png" class="border border-black img-publication rounded-4" alt="">
+          <div class="card-header border-0">
+            <h3 class="pt-3 text-primary card-title fw-bold">Комментарии</h3>
+            <p class="text-publication card-text">- это краткое мнение эксперта по вопросу размером
+              <span class="fw-bold">до 2000 знаков</span>. Комментарии - самый популярный
+              вид запроса на Pressfeed.
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img src="img/image-2.png" class=" border border-black img-publication rounded-4 ms-3" alt="">
-        <div class="card-header ms-3">
-          <h3 class="pt-3 text-primary fw-bold">Статьи</h3>
-          <p class="text-publication">(каждая оплачивается отдельно) - это полноценная
-             статья/интервью за подписью эксперта размером
-            <span class="fw-bold">более 3000 знаков.</span>
-          </p>
+        <div class="card border-0 card-color ms-3">
+          <img src="img/image-2.png" class=" border border-black img-publication img-pub rounded-4" alt="">
+          <div class="card-header border-0">
+            <h3 class="pt-3 card-title text-primary fw-bold">Статьи</h3>
+            <p class="text-publication card-text">(каждая оплачивается отдельно) - это полноценная
+               статья/интервью за подписью эксперта размером
+              <span class="fw-bold">более 3000 знаков.</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
+
     <div class="pressefeed mt-5">
-      <h1 class="ps-5 fw-bold">В чем ценность куратора Pressfeed?</h1>
-      <div class="card-group">
-        <div class="card rounded-start-4 bg-dark">
+      <h1 class="text-pressefeed">В чем ценность куратора Pressfeed?</h1>
+      <div class="card-group-pressefeed">
+        <div class="card card-pressefeed bg-dark">
           <img src="img/Frame-calendare.svg" class="ms-4 mt-3" width="140" height="140" alt="...">
           <div class="card-body text-white">
-            <h5 class="card-title fw-bold w-75">Экономия вашего времени</h5>
-            <p class="card-text">
+            <h5 class="card-title fw-bold card-title-curator">Экономия вашего времени</h5>
+            <p class="card-text card-text-curator">
               Написание статьи может занять
               целый день. И это лишь одна из
               задач, которые вы сможете
@@ -197,11 +206,11 @@
             </p>
           </div>
         </div>
-        <div class="card bg-orange">
+        <div class="card card-pressefeed bg-orange">
           <img src="img/Frame-2.svg" class="ms-4 mt-3" width="140" height="140" alt="...">
           <div class="card-body">
-            <h5 class="card-title fw-bold w-75">Высокое качество текстов</h5>
-            <p class="card-text">
+            <h5 class="card-title fw-bold card-title-curator">Высокое качество текстов</h5>
+            <p class="card-text card-text-curator text-body-emphasis">
               По статистике Pressfeed, 8 из 10
               материалов, написанных нашими
               специалистами принимают к
@@ -211,11 +220,11 @@
             </p>
           </div>
         </div>
-        <div class="card rounded-end-4 bg-primary">
+        <div class="card card-pressefeed bg-primary">
           <img src="img/Frame-pressfeed.svg" class="ms-4 mt-3" width="140" height="140" alt="">
           <div class="card-body text-white">
-            <h5 class="card-title fw-bold">Понимание специфики Pressfeed</h5>
-            <p class="card-text">
+            <h5 class="card-title fw-bold card-title-curator">Понимание специфики Pressfeed</h5>
+            <p class="card-text card-border card-text-curator">
               Куратор сможет правильно выбрать
               запрос, оценить дедлайн,
               количество ответов ваших
@@ -391,45 +400,49 @@
     </div>
     <div class="usluga mb-5 mt-5">
       <h1 class="font">Стоимость услуг</h1>
-      <div class="card-group group-curator mt-4">
-        <div class="card-body">
-          <h2 class="fw-bold pt-4">Куратор</h2>
-          <div class="d-flex mt-4 sum">
-            <p>4 990 <span class="sum-mouth">₽/мес.</span></p>
-            <p>7 990 <span class="sum-mouth">₽/мес.</span></p>
+      <div class="group-curator mt-4">
+        <div class="card card-curator border-0">
+          <div class="card-body ">
+            <h2 class="fw-bold pt-4">Куратор</h2>
+            <div class="d-flex mt-4 sum">
+              <p>4 990 <span class="sum-mouth">₽/мес.</span></p>
+              <p>7 990 <span class="sum-mouth">₽/мес.</span></p>
+            </div>
+            <div class="d-flex rates">
+              <p>На тарифе <span class="fw-bold">«Эксперт»</span></p>
+              <p>На тарифе <span class="fw-bold">«Компания»</span></p>
+            </div>
+            <button type="button" class="btn btn-curator btn-outline-primary">Оформить услугу</button>
+            <ul class="pt-4 custom-ul">
+              <li class="custom-li">Поможет разработать план работы на Pressfeed под ваши задачи</li>
+              <li class="custom-li">Подберет запросы СМИ по вашей теме с высокой вероятностью выхода публикации</li>
+              <li class="custom-li">Отследит статус отправленного питча и ответит на дополнительные вопросы журналиста</li>
+              <li class="custom-li">Пришлет отчет о вышедших публикациях</li>
+            </ul>
           </div>
-          <div class="d-flex rates">
-            <p>На тарифе <span class="fw-bold">«Эксперт»</span></p>
-            <p>На тарифе <span class="fw-bold">«Компания»</span></p>
-          </div>
-          <button type="button" class="btn btn-curator btn-outline-primary">Оформить услугу</button>
-          <ul class="pt-4 custom-ul">
-            <li class="custom-li">Поможет разработать план работы на Pressfeed под ваши задачи</li>
-            <li class="custom-li">Подберет запросы СМИ по вашей теме с высокой вероятностью выхода публикации</li>
-            <li class="custom-li">Отследит статус отправленного питча и ответит на дополнительные вопросы журналиста</li>
-            <li class="custom-li">Пришлет отчет о вышедших публикациях</li>
-          </ul>
         </div>
-        <div class="card-body-curator">
-          <div class="d-flex position-relative">
-            <h2 class="pt-5 fw-bold">Куратор-копирайтер</h2>
-            <img src="img/Frame-895/Group.svg" class="position-absolute plashka" alt="">
-            <img src="img/Frame-895/fire.svg" class="position-absolute plashka-fire" alt="">
+        <div class="card border-0">
+          <div class="card-body-curator">
+            <div class="d-flex position-relative">
+              <h2 class="pt-5 fw-bold">Куратор-копирайтер</h2>
+              <img src="img/Frame-895/Group.svg" class="position-absolute plashka" alt="">
+              <img src="img/Frame-895/fire.svg" class="position-absolute plashka-fire" alt="">
+            </div>
+            <div class="d-flex mt-3 sum">
+              <p>29 990 <span class="sum-mouth">₽/мес.</span></p>
+              <p>На тарифе <span class="fw-bold">«Эксперт»</span></p>
+            </div>
+            <div class="d-flex rates">
+              <p>49 990 <span class="sum-mouth">₽/мес.</span></p>
+              <p>На тарифе <span class="fw-bold">«Компания»</span></p>
+            </div>
+            <button type="button" class="btn btn-curator-2 btn-primary">Оформить услугу</button>
+            <p class="fw-bold mt-4">То же, что в «Кураторе», плюс:</p>
+            <ul class="custom-ul">
+              <li class="custom-li">Свяжется с вами для сбора ключевых тезисов и фактуры для будущих публикаций</li>
+              <li class="custom-li">Напишет профессиональный текст и отправит журналисту</li>
+            </ul>
           </div>
-          <div class="d-flex mt-3 sum">
-            <p>29 990 <span class="sum-mouth">₽/мес.</span></p>
-            <p>49 990 <span class="sum-mouth">₽/мес.</span></p>
-          </div>
-          <div class="d-flex rates">
-            <p>На тарифе <span class="fw-bold">«Эксперт»</span></p>
-            <p>На тарифе <span class="fw-bold">«Компания»</span></p>
-          </div>
-          <button type="button" class="btn btn-curator-2 btn-primary">Оформить услугу</button>
-          <p class="fw-bold mt-4">То же, что в «Кураторе», плюс:</p>
-          <ul class="custom-ul">
-            <li class="custom-li">Поможет разработать план работы на Pressfeed под ваши задачи</li>
-            <li class="custom-li">Подберет запросы СМИ по вашей теме с высокой вероятностью выхода публикации</li>
-          </ul>
         </div>
       </div>
     </div>

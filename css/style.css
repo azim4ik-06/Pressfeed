@@ -25,12 +25,13 @@ body{
     box-shadow: 0px 0px 4px 0px #FFEDB5;
     width: 100px;
     height: 26px;
+    margin: 8px 24px 8px 0;
     padding: 0 12px;
 }
 .nav_{
     display: flex;
     margin: 0;
-    padding: 0 12px;
+    padding: 8px 24px 8px 0;
     color: #D1852C;
     text-align: center;
     font-family: 'Segoe UI';
@@ -39,8 +40,12 @@ body{
 }
 .ellipse{
     top: 0;
-    right: 2px;
-    
+    right: 2px;  
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .num{
     top: 2px;
@@ -303,12 +308,19 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
+.card-color{
+    background-color:#EEF4FF;
+}
 .card-header{
     width: 448px;
+    background-color:#EEF4FF;
 }
 .img{
     width: 553px;
     height: 300px;
+}
+.img-pub{
+    height: 342px;
 }
 .img-publication:hover{
     transform: scale(1.1);
@@ -322,11 +334,35 @@ body{
 .bg-orange{
     background-color: #FFF0BF;
 }
-.card-text{
+.card-text-curator{
     padding-top: 5px;
     width: 320px;
     font-weight: 500;
     padding-bottom: 10px;
+}
+.card-group-pressefeed{
+    display: flex;
+}
+.card-pressefeed{
+    border-radius: 0;
+}
+.card-pressefeed:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .card-pressefeed:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+.text-pressefeed{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.card-title-curator{
+    width: 85%;
 }
 .container-slide{
     margin-left: 370px;
@@ -417,13 +453,18 @@ body{
 }
 .group-curator{
     display: inline-flex;
+}
+.card-curator{
+    background: #EEF4FF;
     padding-left: 60px;
-    justify-content: flex-end;
+    padding-right: 90px;
     align-items: center;
     gap: 60px;
     border-radius: 20px;
     border: 1px solid #D7E4FB;   
     background: #EEF4FF;
+    margin-right: -30px;
+    z-index: 1;
 }
 .sum{
     color: #4054F9;
@@ -459,7 +500,7 @@ body{
     padding: 0 0 10px 30px;
     background: url('../img/check.svg');
     background-repeat: no-repeat;
-    width: 435px;
+    width: 445px;
     color:#3B3B3B;
     font-weight: 500;
 }
@@ -471,6 +512,7 @@ body{
     border: 2px solid #4054F9;
     background: #FFF; 
     box-shadow: 0px 0px 20px 0px #AAC9ED;
+    z-index: 2;
 }
 .btn-curator-2{
     width: 465px;
@@ -621,6 +663,9 @@ body{
     font-weight: 500;
     text-decoration: none;
 }
+.mw-100{
+    padding: 0;
+}
 .btn-telegram{
     display: inline-flex;
     width: 210px;
@@ -638,4 +683,142 @@ body{
 hr{
     width: 100%;
     color: #414141;
+}
+
+@media(max-width: 990px){
+    .format-publication{
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .container-slide{
+        margin-left: 5%;
+    }
+    .publication-pressfeed{
+        padding-left: 5%;
+    }
+    .width-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header{
+        width: 850px;
+        color: #262626;
+        text-align: center;
+        font-size: 60px;
+    }
+    .text-item{
+        width: 850px;
+        color: #262626;
+        text-align: center;
+        font-size: 20px;
+    }
+    .max-col-width{
+        width: 850px;
+    }
+    .text-border{
+        margin-left: 19%;
+        width: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+    .devaice{
+        margin-top: 0;
+        margin-left: 18%;
+    }
+    .middle-text{
+        align-items: center;
+    }
+    .text{
+        padding: 28px 46px 32px 24px;
+        top: 24.8%;
+        left: 7%;
+    }
+    .text-1{
+        padding: 28px 46px 32px 24px;
+        top: 24.8%;
+        left: 46.7%;
+    }
+    .text-2{
+        padding: 28px 46px 32px 24px;
+        top: 57.4%;
+        left: 10.3%;
+    }
+    .text-3{
+        padding: 40px 31px 30px 24px;
+        height: 186px;
+        top: 57.4%;
+        left: 49.5%;
+    }
+    .text-4{
+        padding: 28px 46px 32px 24px;
+        top: 90%;
+        left: 9.8%;
+    }
+    .text-5{
+        padding: 40px 31px 75px 24px;
+        top: 90%;
+        left: 49%;
+    }
+    .format-text{
+        width: 812px;
+        margin-top: 10%;
+        font-size: 50px;
+    }
+    .img-publication{
+        max-width: 590px;
+    }
+    .text-publication{
+        width: 850px;
+    }
+    .card-group-pressefeed {
+        width: 850px;
+        display: block;
+      }
+      
+      .card-pressefeed {
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }  
+      .card-pressefeed:first-child {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+      }
+      
+      .card-pressefeed:last-child{
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0;
+      }
+    .card-title-curator{
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .card-text-curator{
+        width: 100%;
+        color: #e6e6e6;
+    }
+    .sum{
+        flex-direction: column;
+    }
+    .photo-card-prev {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        
+    }
+    .photo-card-next {
+        position: absolute;
+        top: 0;
+        right: 2%;
+    }
 }
