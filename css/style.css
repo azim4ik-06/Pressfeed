@@ -84,7 +84,7 @@ body{
     font-weight: 500;
 }
 .text-border{
-    display: inline-flex;
+    width: 520px;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
@@ -453,6 +453,7 @@ body{
 }
 .group-curator{
     display: inline-flex;
+    margin-bottom: 60px;
 }
 .card-curator{
     background: #EEF4FF;
@@ -466,11 +467,14 @@ body{
     margin-right: -30px;
     z-index: 1;
 }
+.curator-harac{
+    gap: 60px;
+}
 .sum{
+    flex-direction: column;
     color: #4054F9;
     font-size: 30px;
     font-weight: 800;
-    gap: 60px;
 }
 .sum-mouth{
     color: #4054F9;
@@ -505,9 +509,7 @@ body{
     font-weight: 500;
 }
 .card-body-curator{
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 40px 60px 60px;
     border-radius: 20px;
     border: 2px solid #4054F9;
     background: #FFF; 
@@ -521,9 +523,9 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-.plashka{
-    top: 30px;
-    right: 0;
+.plashka{  
+    top: 25px;
+    right: 30px;
     animation: rotate 2s linear infinite;
 }
 @keyframes rotate {
@@ -535,8 +537,7 @@ body{
     }
 }
 .plashka-fire{
-    top: 45px;
-    right: 17px;
+    right: 47px;
     animation: beat 2s infinite ease-in-out;
 }
 @keyframes beat{
@@ -686,6 +687,15 @@ hr{
 }
 
 @media(max-width: 990px){
+    .navbar-toggler {
+        order: 1;
+      }  
+      .navbar-brand {
+        order: 2;
+      }
+      .nav-title{
+        order:3
+      }
     .format-publication{
         padding-left: 5%;
         padding-right: 0;
@@ -768,6 +778,9 @@ hr{
         top: 90%;
         left: 49%;
     }
+    .row{
+        width: 90%;
+    }
     .format-text{
         width: 812px;
         margin-top: 10%;
@@ -820,5 +833,334 @@ hr{
         position: absolute;
         top: 0;
         right: 2%;
+    }
+    .curator-harac{
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-body p ,.card-body-curator p{
+        margin: 0;
+    }
+    .card-curator{
+        padding-left: 28px;
+        padding-right: 48px;
+    }
+    .card-body-curator{
+        padding: 40px 28px 130px;
+    }
+    .custom-li{
+        width: 370px;
+    }
+    .btn-curator, .btn-curator-2{
+        width: 369px;
+        padding: 6px 16px;
+    }
+    .plashka, .plashka-fire{
+        display: none;
+    }
+    .publication-pressefeed-text{
+        width: 430px;
+    }
+    .photo-card-container-pressefeed{
+        gap: 20px;
+    }
+    .photo-card-prev-pressefeed {
+        position: absolute;
+        top: 18%;
+        right: 12%;
+    }
+    .photo-card-next-pressefeed {
+        position: absolute;
+        top: 18%;
+        right: 4%;
+    }
+    .accordion{
+        width: 87%;
+        margin-left: 5%;
+    }
+    .width-container-accordion{
+        max-width: 100%;
+    }
+    .accordion-button{
+        max-width: 100%;
+    }
+    .accordion-body{
+        max-width: 100%;
+    }
+    .num-run-main{
+        padding: 8% 19%;
+    }
+    .num-run-text{
+        width: 458px;
+    }
+    .num-width{
+        padding-left: 11%;
+        width: 408px;
+    }
+}
+
+@media (max-width: 767px){
+    .header{
+        width: 76%;
+        padding-left: 12%;
+    }
+    .text-item{
+        width: 85%;
+    }
+    .text-border{
+        width: 90%;
+        margin: 0;
+    }
+    .devaice{
+        width: 30.625rem;
+        margin: 0;
+    }
+    .text{
+        padding: 28px 79px 28px 24px;
+        top: 15.4%;
+        left: 18%;
+    }
+    .text p{
+        width: 364px;
+    }
+    .text-1{
+        padding: 28px 79px 28px 24px;
+        top: 29.1%;
+        left: 18%;
+    }
+    .text-1 p {
+        width: 364px;
+    }
+    .text-2{
+        padding: 28px 79px 28px 24px;
+        top: 47%;
+        left: 18%;
+    }
+    .text-2 p {
+        width: 364px;
+    }
+    .text-3{
+        padding: 28px 79px 28px 24px;
+        top: 62.8%;
+        left: 18%;
+    }
+    .text-3 p{
+        max-width: 364px;
+    }
+    .text-4{
+        padding: 28px 79px 28px 24px;
+        top: 81.3%;
+        left: 18%;
+    }
+    .text-4 p{
+        max-width: 364px;
+    }
+    .text-5{
+        padding: 28px 79px 28px 24px;
+        top: 98%;
+        left: 18%;
+    }
+    .text-5 p{
+        max-width: 364px;
+    }
+    .format-text{
+        width: 50%;
+    }
+    .text-publication{
+        width: 117.8%;
+    }
+    .text-pressefeed{
+        width: 90%;
+    }
+    .card-group-pressefeed{
+        width: 86%;
+    }
+    .card-pressefeed{
+        padding: 0;
+    }
+    .card-title-curator{
+        width: 286px;
+    }
+    .card-text-curator{
+        width: 286px;
+    }
+    .text-public{
+        width: 90%;
+    }
+    .photo-card-controls{
+        display: none;
+    }
+    .group-curator{
+        flex-direction: column;
+    }
+    .curator-harac{
+        flex-direction: row;
+        gap: 32px;
+    }
+    .card-curator{
+        margin: 24px 0;
+        padding: 0 20px;
+    }
+    .card-body-curator{
+        padding-bottom: 0;
+    }
+    .btn-curator, .btn-curator-2{
+        width: 426px;
+    }
+    .plashka, .plashka-fire{
+        display: flex;
+    }
+    .num-run-main{
+        padding: 10% 5%;
+    }
+    .publication-pressefeed-text{
+        font-size: 40px;
+    }
+    .photo-card-controls-pressefeed{
+        display: none;
+    }
+}
+
+
+@media(max-width: 550px){
+    .navbar-brand{
+        display: none;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .text-item{
+        width: 358px;
+    }
+    .text-border{
+        width: 310px;
+    }
+    .devaice{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .middle-text{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .text{
+        padding: 20px 69px 20px 16px;
+        left: 19.9%;
+        top: 13.9%;
+    }
+    .text p{
+        width: 230px;
+    }
+    .text-1{
+        padding: 20px 69px 20px 16px;
+        top: 29.2%;
+        left: 19.9%;
+    }
+    .text-1 p{
+        width: 230px;
+    }
+    .text-2{
+        padding: 20px 69px 20px 16px;
+        top: 46.2%;
+        left: 19.9%;
+    }
+    .text-2 p{
+        width: 210px;
+    }
+    .text-3{
+        padding: 20px 69px 20px 16px;
+        top: 63.5%;
+        left: 19.9%;
+    }
+    .text-3 p{
+        width: 210px;
+    }
+    .text-4{
+        padding: 20px 59px 20px 16px;
+        top: 80.4%;
+        left: 19.9%;
+    }
+    .text-4 p{
+        width: 205px;
+    }
+    .text-5{
+        padding: 20px 69px 20px 16px;
+        top: 95.3%;
+        left: 19.9%;
+    }
+    .text-5 p{
+        width: 200px;
+    }
+    .format-publication{
+        padding: 0;
+    }
+    .format-text{
+        padding-left: 2%;
+        font-size: 30px;
+        width: 100%;
+    }
+    .card-header-publication{
+        width: 300px;
+    }
+    .text-publication{
+        width: 358px;
+    }
+    .text-pressefeed{
+        font-size: 30px;
+    }
+    .card-pressefeed{
+        flex-direction: column;
+    }
+    .text-public{
+        font-size: 30px;
+    }
+    .font{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .curator-harac{
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-curator{
+        padding-left: 4px;
+    }
+    .card-body-curator{
+        padding: 24px 20px;
+    }
+    .plashka,.plashka-fire{
+        display: none;
+    }
+    .btn-curator, .btn-curator-2{
+        width: 300px;
+    }
+    .custom-li{
+        width: 280px;
+    }
+    .num-run-main{
+        padding: 1%;
+    }
+    .num-run-text{
+        width: 330px;
+    }
+    .publication-pressefeed-text{
+        font-size: 30px;
+    }
+    .photo-card-container-pressefeed .card{
+        width: 300px;
+        padding: 18px;
+    }
+    .photo-card-container-pressefeed .card .card-body h3{
+        font-size: 18px;
+        width: 224px;
+    }
+    .accordion{
+        margin: 0;
+        width: 360px;
+    }
+    .accordion-button{
+        font-size: 16px;
     }
 }
