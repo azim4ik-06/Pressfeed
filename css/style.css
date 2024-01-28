@@ -38,6 +38,9 @@ body{
     font-size: 15px;
     font-weight: 600;
 }
+.btn-surprise{
+    margin-right: 3%;
+}
 .ellipse{
     top: 0;
     right: 2px;  
@@ -696,7 +699,7 @@ hr{
     color: #414141;
 }
 
-@media (width >= 991px) and (width <= 1500px){
+@media (width >= 1200px) and (width <= 1500px){
     .format-publication{
         padding: 110px 100px;
     }
@@ -712,16 +715,151 @@ hr{
     }
 }
 
+
+@media(max-width: 1199px){
+    .container-fluid{
+        justify-content: initial !important;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .nav-title{
+        margin-left: 53.4%;
+    }
+    .header_text{
+        width: 100%;
+        text-align: center;
+    }
+    .text-item{
+        margin-left: 20%;
+    }
+    .text-border{
+        margin-left: 20%;
+    }
+    .max-col-width{
+        width: 100%;
+    }
+    .devaice{
+        margin-left: 40%;
+    }
+    .d-lg-block{
+        width: 100%;
+    }
+    .format-publication{
+        padding: 110px 10%;
+    }
+    .col-width{
+        width: 100%;
+    }
+    .card-group-pressefeed {
+        width: 850px;
+        display: block;
+      }
+      
+      .card-pressefeed {
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }  
+      .card-pressefeed:first-child {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+      }
+      
+      .card-pressefeed:last-child{
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0;
+      }
+      .card-title-curator{
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .card-text-curator{
+        width: 100%;
+        color: #e6e6e6;
+    }
+    .container-slide{
+        margin-left: 110px;
+    }
+    .sum{
+        flex-direction: column;
+    }
+    .photo-card-prev {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        
+    }
+    .photo-card-next {
+        position: absolute;
+        top: 0;
+        right: 2%;
+    }
+    .curator-harac{
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-body p ,.card-body-curator p{
+        margin: 0;
+    }
+    .card-curator{
+        padding-left: 28px;
+        padding-right: 48px;
+    }
+    .card-body-curator{
+        padding: 40px 28px 130px;
+    }
+    .custom-li{
+        width: 370px;
+    }
+    .btn-curator, .btn-curator-2{
+        width: 369px;
+        padding: 6px 16px;
+    }
+    .plashka, .plashka-fire{
+        display: none;
+    }
+    .publication-pressefeed-text{
+        width: 430px;
+    }
+    .photo-card-container-pressefeed{
+        gap: 20px;
+    }
+    .photo-card-prev-pressefeed {
+        position: absolute;
+        top: 18%;
+        right: 12%;
+    }
+    .photo-card-next-pressefeed {
+        position: absolute;
+        top: 18%;
+        right: 4%;
+    }
+    .num-run-main{
+        padding: 8% 5%;
+    }
+    .publication-pressfeed{
+        padding: 140px 110px;
+    }
+}
+
+
 @media(max-width: 990px){
     .navbar-toggler {
+        padding: 0;
         order: 1;
-      }  
-      .navbar-brand {
+    } 
+    .navbar-brand {
         order: 2;
-      }
-      .nav-title{
-        order:3
-      }
+    }
+    .btn-surprise{
+        order: 3;
+    }
+    .nav-title{
+        order:3;
+        margin-left: 34.7%;
+    }
     .format-publication{
         padding-left: 5%;
         padding-right: 0;
@@ -740,22 +878,18 @@ hr{
         align-items: center;
         justify-content: center;
     }
-    .header_text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .header{
-        width: 850px;
+        width: 100%;
         color: #262626;
         text-align: center;
         font-size: 60px;
     }
     .text-item{
-        width: 850px;
+        width: 100%;
         color: #262626;
         text-align: center;
         font-size: 20px;
+        margin-left: 0;
     }
     .max-col-width{
         width: 850px;
@@ -818,87 +952,8 @@ hr{
     .text-publication{
         width: 850px;
     }
-    .card-group-pressefeed {
-        width: 850px;
-        display: block;
-      }
-      
-      .card-pressefeed {
-        flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 30px;
-      }  
-      .card-pressefeed:first-child {
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 0;
-      }
-      
-      .card-pressefeed:last-child{
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 0;
-      }
-    .card-title-curator{
-        width: 100%;
-        font-size: 24px;
-        font-weight: 700;
-    }
-    .card-text-curator{
-        width: 100%;
-        color: #e6e6e6;
-    }
-    .sum{
-        flex-direction: column;
-    }
-    .photo-card-prev {
-        position: absolute;
-        top: 0;
-        right: 10%;
-        
-    }
-    .photo-card-next {
-        position: absolute;
-        top: 0;
-        right: 2%;
-    }
-    .curator-harac{
-        flex-direction: column;
-        gap: 0;
-    }
-    .card-body p ,.card-body-curator p{
-        margin: 0;
-    }
-    .card-curator{
-        padding-left: 28px;
-        padding-right: 48px;
-    }
-    .card-body-curator{
-        padding: 40px 28px 130px;
-    }
-    .custom-li{
-        width: 370px;
-    }
-    .btn-curator, .btn-curator-2{
-        width: 369px;
-        padding: 6px 16px;
-    }
-    .plashka, .plashka-fire{
-        display: none;
-    }
-    .publication-pressefeed-text{
-        width: 430px;
-    }
-    .photo-card-container-pressefeed{
-        gap: 20px;
-    }
-    .photo-card-prev-pressefeed {
-        position: absolute;
-        top: 18%;
-        right: 12%;
-    }
-    .photo-card-next-pressefeed {
-        position: absolute;
-        top: 18%;
-        right: 4%;
+    .card-group-pressefeed{
+        width: 95%;
     }
     .accordion{
         width: 87%;
@@ -924,8 +979,10 @@ hr{
         width: 408px;
     }
 }
-
 @media (max-width: 767px){
+    .nav-title{
+        margin-left: 21.5%;
+    }
     .header{
         width: 76%;
         padding-left: 12%;
@@ -1062,6 +1119,9 @@ hr{
     .navbar-brand{
         display: none;
     }
+    .nav-title{
+        margin-left: 15%;
+    }
     .header{
         font-size: 30px;
         padding-left: 50px;
@@ -1180,6 +1240,9 @@ hr{
     }
     .card-group-pressefeed{
         width: 100%;
+    }
+    .card-curator{
+        padding-right: 0;
     }
     .card-text-curator{
         font-size: 14px;
