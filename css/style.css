@@ -320,7 +320,7 @@ body{
     height: 300px;
 }
 .img-pub{
-    height: 342px;
+    height: 20%;
 }
 .img-publication:hover{
     transform: scale(1.1);
@@ -573,7 +573,6 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
-
 .publication-pressfeed{
     max-width: 100%;
     padding: 140px 0px 140px 375px;
@@ -626,6 +625,9 @@ body{
     gap: 30px;
     overflow-x:scroll;
     padding-bottom: 50px;
+}
+.card-footer-top{
+    margin-top: 25px;
 }
 .accordion-header-pressefeed{
     margin: 6% 0;
@@ -923,6 +925,9 @@ hr{
     .text p{
         width: 364px;
     }
+    .frame{
+        left: 85.6%;
+    }
     .text-1{
         padding: 28px 79px 28px 24px;
         top: 29.1%;
@@ -931,8 +936,12 @@ hr{
     .text-1 p {
         width: 364px;
     }
+    .frame-1{
+        left: 85.6%;
+    }
     .text-2{
         padding: 28px 79px 28px 24px;
+        width: 469px;
         top: 47%;
         left: 18%;
     }
@@ -941,6 +950,7 @@ hr{
     }
     .text-3{
         padding: 28px 79px 28px 24px;
+        width: 469px;
         top: 62.8%;
         left: 18%;
     }
@@ -949,6 +959,7 @@ hr{
     }
     .text-4{
         padding: 28px 79px 28px 24px;
+        width: 469px;
         top: 81.3%;
         left: 18%;
     }
@@ -957,6 +968,7 @@ hr{
     }
     .text-5{
         padding: 28px 79px 28px 24px;
+        width: 469px;
         top: 98%;
         left: 18%;
     }
@@ -1028,9 +1040,16 @@ hr{
     }
     .header{
         font-size: 30px;
+        padding-left: 50px;
+    }
+    .width-container{
+        padding: 0;
+    }
+    .header_text{
+        padding: 0;
     }
     .text-item{
-        width: 358px;
+        width: 340px;
     }
     .text-border{
         width: 310px;
@@ -1045,7 +1064,7 @@ hr{
     }
     .text{
         padding: 20px 69px 20px 16px;
-        left: 19.9%;
+        left: 5.9%;
         top: 13.9%;
     }
     .text p{
@@ -1054,7 +1073,7 @@ hr{
     .text-1{
         padding: 20px 69px 20px 16px;
         top: 29.2%;
-        left: 19.9%;
+        left: 5.9%;
     }
     .text-1 p{
         width: 230px;
@@ -1062,15 +1081,17 @@ hr{
     .text-2{
         padding: 20px 69px 20px 16px;
         top: 46.2%;
-        left: 19.9%;
+        left: 5.9%;
+        width: 317px;
     }
     .text-2 p{
         width: 210px;
     }
     .text-3{
         padding: 20px 69px 20px 16px;
+        width: 317px;
         top: 63.5%;
-        left: 19.9%;
+        left: 5.9%;
     }
     .text-3 p{
         width: 210px;
@@ -1078,7 +1099,8 @@ hr{
     .text-4{
         padding: 20px 59px 20px 16px;
         top: 80.4%;
-        left: 19.9%;
+        left: 5.9%;
+        width: 317px;
     }
     .text-4 p{
         width: 205px;
@@ -1086,7 +1108,8 @@ hr{
     .text-5{
         padding: 20px 69px 20px 16px;
         top: 95.3%;
-        left: 19.9%;
+        left: 5.9%;
+        width: 317px;
     }
     .text-5 p{
         width: 200px;
@@ -1094,19 +1117,30 @@ hr{
     .format-publication{
         padding: 0;
     }
+    .card-color{
+        margin-left: 5%;
+    }
     .format-text{
         padding-left: 2%;
         font-size: 30px;
         width: 100%;
     }
     .card-header-publication{
+        padding: 8px 0;
         width: 300px;
     }
     .text-publication{
-        width: 358px;
+        width: 348px;
+    }
+    .pressefeed{
+        padding: 0 10%;
     }
     .text-pressefeed{
-        font-size: 30px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .img-card{
+        margin-left: 25%;
     }
     .card-pressefeed{
         flex-direction: column;
@@ -1114,11 +1148,43 @@ hr{
     .text-public{
         font-size: 30px;
     }
+    .card-group-pressefeed{
+        width: 100%;
+    }
+    .card-text-curator{
+        font-size: 14px;
+        width: 100%;
+    }
+    .card-title-curator{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 248px;
+        font-size: 20px;
+    }
+    .card-transform{
+        width: 260px;
+    }
+    .card-transform img{
+        width: 260px;
+        height: 50%;
+    }
+    .container-slide{
+        margin: 0 1%; 
+    }
+    .card-text-slide{
+        width: 260px;
+        font-size: 14px;
+    }
     .font{
         font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .group-curator{
+        padding-left: 2%;
     }
     .curator-harac{
         flex-direction: column;
@@ -1128,7 +1194,7 @@ hr{
         padding-left: 4px;
     }
     .card-body-curator{
-        padding: 24px 20px;
+        padding: 24px 10px 24px 20px;
     }
     .plashka,.plashka-fire{
         display: none;
@@ -1140,13 +1206,14 @@ hr{
         width: 280px;
     }
     .num-run-main{
-        padding: 1%;
+        padding: 0;
     }
     .num-run-text{
-        width: 330px;
+        width: 100%;
     }
     .publication-pressefeed-text{
         font-size: 30px;
+        width: 100%;
     }
     .photo-card-container-pressefeed .card{
         width: 300px;
@@ -1156,11 +1223,17 @@ hr{
         font-size: 18px;
         width: 224px;
     }
+    .card-footer-top{
+        margin-top: 0;
+    }
     .accordion{
         margin: 0;
         width: 360px;
     }
     .accordion-button{
         font-size: 16px;
+    }
+    .pb-btn{
+        padding-bottom: 20px;
     }
 }
