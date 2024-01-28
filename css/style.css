@@ -303,7 +303,7 @@ body{
     background-color: #EEF4FF;
     margin-top: 200px;
     display: flex;
-    padding: 110px 375px;
+    padding: 110px 300px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -366,7 +366,7 @@ body{
     width: 85%;
 }
 .container-slide{
-    margin-left: 370px;
+    margin-left: 300px;
     margin-right: 0;
 }
 .text-public{
@@ -445,7 +445,7 @@ body{
     font-weight: 500;
 }
 .card-transform:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .font{
@@ -694,6 +694,22 @@ body{
 hr{
     width: 100%;
     color: #414141;
+}
+
+@media (width >= 991px) and (width <= 1500px){
+    .format-publication{
+        padding: 110px 100px;
+    }
+    .container-slide{
+        margin-left: 100px;
+    }
+    .num-run-main{
+        padding: 120px 100px;
+        padding-left: 0;
+    }
+    .publication-pressfeed{
+        padding: 140px 0 140px 100px;
+    }
 }
 
 @media(max-width: 990px){
