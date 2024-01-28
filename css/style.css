@@ -321,12 +321,13 @@ body{
 }
 .img-pub{
     height: 20%;
+    margin-left: 10px;
 }
 .img-publication:hover{
     transform: scale(1.1);
 }
 .text-publication{
-    width: 588px;
+    width: 570px;
     color: #3B3B3B;
     font-size: 20px;
     font-weight: 500;
@@ -469,6 +470,13 @@ body{
 }
 .curator-harac{
     gap: 60px;
+}
+.img-card{
+    margin-left: 20px;
+}
+.card-text-curator{
+    color: #e6e6e6;
+    font-weight: 500;
 }
 .sum{
     flex-direction: column;
@@ -1070,6 +1078,9 @@ hr{
     .text p{
         width: 230px;
     }
+    .frame{
+        left: 79%;
+    }
     .text-1{
         padding: 20px 69px 20px 16px;
         top: 29.2%;
@@ -1077,6 +1088,9 @@ hr{
     }
     .text-1 p{
         width: 230px;
+    }
+    .frame-1{
+        left: 79%;
     }
     .text-2{
         padding: 20px 69px 20px 16px;
