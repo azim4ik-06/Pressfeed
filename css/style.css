@@ -989,7 +989,25 @@ hr{
     }
     .line{
         width: 100%;
-    }    
+    }
+    .text{
+        left: 2%;
+    } 
+    .text-1{
+        left: 50%;
+    }
+    .text-2{
+        left: 5%;
+    }
+    .text-3{
+        left: 52%;
+    }
+    .text-4{
+        left: 5%;
+    }
+    .text-5{
+        left: 52%;
+    }
     .text-publication{
         width: 700px;
     }
