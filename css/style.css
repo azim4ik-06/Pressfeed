@@ -498,7 +498,7 @@ body{
     font-weight: 500;
 }
 .btn-curator{
-    width: 465px;
+    width: 100%;
     height: 58px;
     border-radius: 10px;
     border: 1px solid #4054F9;
@@ -528,7 +528,7 @@ body{
     z-index: 2;
 }
 .btn-curator-2{
-    width: 465px;
+    width: 100%;
     height: 58px;
     background: #4054F9;
     font-size: 20px;
@@ -979,6 +979,28 @@ hr{
         width: 408px;
     }
 }
+
+@media (width >= 768px) and (width <= 910px){
+    .text-border{
+        margin-left: 8%;
+    }
+    .devaice{
+        margin-left: 5%;
+    }
+    .line{
+        width: 100%;
+    }    
+    .text-publication{
+        width: 700px;
+    }
+    .format-text{
+        width: 100%;
+    }
+    .group-curator{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 767px){
     .nav-title{
         margin-left: 21.5%;
@@ -1097,9 +1119,6 @@ hr{
     .card-body-curator{
         padding-bottom: 0;
     }
-    .btn-curator, .btn-curator-2{
-        width: 426px;
-    }
     .plashka, .plashka-fire{
         display: flex;
     }
@@ -1113,7 +1132,6 @@ hr{
         display: none;
     }
 }
-
 
 @media(max-width: 550px){
     .navbar-brand{
@@ -1235,6 +1253,9 @@ hr{
     .card-pressefeed{
         flex-direction: column;
     }
+    .card-pressefeed:last-child{
+        margin-bottom: 50px;
+    }
     .text-public{
         font-size: 30px;
     }
@@ -1299,10 +1320,13 @@ hr{
         width: 280px;
     }
     .num-run-main{
-        padding: 0;
+        padding: 20px 0;
     }
     .num-run-text{
         width: 100%;
+    }
+    .publication-pressfeed{
+        padding-right: 0;
     }
     .publication-pressefeed-text{
         font-size: 30px;
