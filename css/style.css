@@ -450,7 +450,15 @@ body{
 .card-transform:hover{
     transform: scale(1.05);
 }
-
+.col-alignment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-alignment .card {
+    flex: 1 0 30%;
+    margin-right: 10px;
+  }
 .font{
     font-weight: 800;
     font-size: 50px;
@@ -840,7 +848,7 @@ hr{
         padding: 8% 5%;
     }
     .publication-pressfeed{
-        padding: 140px 110px;
+        padding: 140px 0 140px 110px;
     }
 }
 
