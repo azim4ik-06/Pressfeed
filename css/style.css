@@ -1019,6 +1019,9 @@ hr{
     .text-publication{
         width: 700px;
     }
+    .text-public{
+        width: 100%;
+    }
     .format-text{
         width: 100%;
     }
