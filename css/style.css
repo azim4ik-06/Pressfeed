@@ -181,11 +181,12 @@ body{
     border-radius: 20px;
     border: 1px solid #F4E1A3;
     background: #FFF0BF;
+    width: 335px;
     left: 31%;
     top: 29%;
 }
 .text-1 p{
-    width: 223px;
+    width: 233px;
     font-size: 18px;
     font-weight: 500;
 }
