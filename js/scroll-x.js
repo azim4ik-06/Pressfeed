@@ -10,6 +10,6 @@ function makeNextOrPrev(event) {
     if (actionType == 'next') {
         cardContainer.scrollLeft += 380;
     } else if (actionType == 'prev'){
-        cardContainer.scrollLeft -= 400
+        cardContainer.scrollLeft -= 400;
     }
 }

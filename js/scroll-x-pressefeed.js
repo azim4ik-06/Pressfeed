@@ -11,6 +11,6 @@ function makeNextOrPrevForPressefeed(event) {
     if (actionTypePressefeed == 'next-pressefeed') {
         cardContainerPressefeed.scrollLeft += 420;
     } else if (actionTypePressefeed == 'prev-pressefeed'){
-        cardContainerPressefeed.scrollLeft -= 430
+        cardContainerPressefeed.scrollLeft -= 430;
     }
 }
