@@ -1037,14 +1037,15 @@ hr{
     }
     .header{
         width: 76%;
+        margin-top: 100px;
         padding-left: 12%;
     }
     .text-item{
-        width: 85%;
+        width: 492px;
     }
     .text-border{
         width: 90%;
-        margin: 0;
+        margin: 32px 0;
     }
     .devaice{
         width: 30.625rem;
@@ -1052,22 +1053,25 @@ hr{
     }
     .text{
         padding: 28px 79px 28px 24px;
-        top: 15.4%;
+        top: 22.4%;
         left: 18%;
     }
     .text p{
         width: 364px;
+        margin-bottom: 0;
     }
     .frame{
         left: 85.6%;
     }
     .text-1{
         padding: 28px 79px 28px 24px;
-        top: 29.1%;
+        width: 469px;
+        top: 34.6%;
         left: 18%;
     }
     .text-1 p {
         width: 364px;
+        margin-bottom: 0;
     }
     .frame-1{
         left: 85.6%;
@@ -1075,38 +1079,45 @@ hr{
     .text-2{
         padding: 28px 79px 28px 24px;
         width: 469px;
-        top: 47%;
+        top: 49.3%;
         left: 18%;
     }
     .text-2 p {
         width: 364px;
+        margin-bottom: 0;
     }
     .text-3{
         padding: 28px 79px 28px 24px;
+        height: 134px;
         width: 469px;
-        top: 62.8%;
+        top: 64%;
         left: 18%;
     }
     .text-3 p{
         width: 404px;
+        margin-bottom: 0;
     }
     .text-4{
         padding: 28px 79px 28px 24px;
         width: 469px;
-        top: 81.3%;
+        height: 134px;
+        top: 78%;
         left: 18%;
     }
     .text-4 p{
-        max-width: 364px;
+        width: 360px;
+        margin-bottom: 0;
     }
     .text-5{
         padding: 28px 79px 28px 24px;
         width: 469px;
-        top: 98%;
+        height: 134px;
+        top: 92.3%;
         left: 18%;
     }
     .text-5 p{
-        max-width: 364px;
+        width: 364px;
+        margin-bottom: 0;
     }
     .format-text{
         width: 50%;
@@ -1161,6 +1172,21 @@ hr{
     .photo-card-controls-pressefeed{
         display: none;
     }
+    .phone-width{
+        margin-left: 8.4%;
+    }
+    .col-footer{
+        max-width: 205px;
+    }
+    .col-footer-width{
+        max-width: 240px;
+    }
+    .pb-btn{
+        padding-bottom: 25px;
+    }
+    .gap-2{
+        margin-top: 25px;
+    }
 }
 
 @media(max-width: 550px){
@@ -1172,15 +1198,19 @@ hr{
     }
     .header{
         font-size: 30px;
+        margin-top: 50px;
         padding-left: 50px;
     }
     .width-container{
+
         padding: 0;
     }
     .header_text{
         padding: 0;
     }
     .text-item{
+        align-items: baseline;
+        justify-content: baseline;
         width: 340px;
     }
     .text-border{
@@ -1207,6 +1237,7 @@ hr{
     }
     .text-1{
         padding: 20px 69px 20px 16px;
+        width: 317px;
         top: 29.2%;
         left: 5.9%;
     }
@@ -1221,6 +1252,7 @@ hr{
         top: 46.2%;
         left: 5.9%;
         width: 317px;
+        height: 190px;
     }
     .text-2 p{
         width: 210px;
@@ -1228,6 +1260,7 @@ hr{
     .text-3{
         padding: 20px 69px 20px 16px;
         width: 317px;
+        height: 190px;
         top: 63.5%;
         left: 5.9%;
     }
@@ -1238,14 +1271,15 @@ hr{
         padding: 20px 59px 20px 16px;
         top: 80.4%;
         left: 5.9%;
+        height: 190px;
         width: 317px;
     }
     .text-4 p{
-        width: 205px;
+        width: 203px;
     }
     .text-5{
         padding: 20px 69px 20px 16px;
-        top: 95.3%;
+        top: 97.6%;
         left: 5.9%;
         width: 317px;
     }
