@@ -728,12 +728,18 @@ hr{
 @media(max-width: 1199px){
     .container-fluid{
         justify-content: initial !important;
+        padding: 0;
+    }
+    .container-navbar{
+        margin: 0 20px !important;
+        padding: 0;
+        max-width: 96%;
     }
     .navbar-toggler{
         border: 0;
     }
     .nav-title{
-        margin-left: 53.4%;
+        margin-left: auto !important;
     }
     .header_text{
         width: 100%;
@@ -1192,9 +1198,6 @@ hr{
 @media(max-width: 550px){
     .navbar-brand{
         display: none;
-    }
-    .nav-title{
-        margin-left: 20%;
     }
     .header{
         font-size: 30px;
