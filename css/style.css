@@ -1047,11 +1047,12 @@ hr{
         padding-left: 12%;
     }
     .text-item{
-        width: 492px;
+        width: 550px;
     }
     .text-border{
-        width: 90%;
+        width: 86%;
         margin: 32px 0;
+        padding: 12px ;
     }
     .devaice{
         width: 30.625rem;
@@ -1205,15 +1206,9 @@ hr{
         padding-left: 50px;
     }
     .width-container{
-
-        padding: 0;
-    }
-    .header_text{
         padding: 0;
     }
     .text-item{
-        align-items: baseline;
-        justify-content: baseline;
         width: 340px;
     }
     .text-border{
