@@ -452,6 +452,7 @@ body{
     transform: scale(1.05);
 }
 .col-alignment {
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
   }
