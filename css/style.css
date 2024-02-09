@@ -221,7 +221,7 @@ body{
     border-radius: 20px;
     border: 1px solid #C9E0FA;
     background: #EEF4FF;
-    left: 60%;
+    left: 60.7%;
     top: 29%; 
 }
 .text-2 p{
@@ -710,6 +710,14 @@ hr{
 }
 
 @media (width >= 1200px) and (width <= 1500px){
+    .container-navbar{
+        margin: 0 1%;
+        max-width: 98%;
+        padding: 0;
+    }
+    .container-fluid{
+        padding: 0;
+    }
     .format-publication{
         padding: 110px 100px;
     }
@@ -723,6 +731,30 @@ hr{
     .publication-pressfeed{
         padding: 140px 0 140px 100px;
     }
+    .text-1{
+        left: 36%;
+    }
+    .text-2{
+        left: 71%;
+    }
+    .text-4{
+        left: 38.3%;
+    }
+    .text-5{
+        left: 72.8%;
+    }
+    .photo-card-prev{
+        right: 15%;
+    }
+    .photo-card-next{
+        right: 9%;
+    }
+    .photo-card-prev-pressefeed{
+        right: 15%;
+    }
+    .photo-card-next-pressefeed{
+        right: 9%;
+    }
 }
 
 
@@ -734,7 +766,10 @@ hr{
     .container-navbar{
         margin: 0 20px !important;
         padding: 0;
-        max-width: 96%;
+        max-width: 94%;
+    }
+    .width-container{
+        margin: 0 5%;
     }
     .navbar-toggler{
         border: 0;
@@ -759,7 +794,22 @@ hr{
         margin-left: 40%;
     }
     .d-lg-block{
-        width: 100%;
+        max-width: 100%;
+    }
+    .text-1{
+        left: 39%;
+    }
+    .text-2{
+        left: 77%;
+    }
+    .text-3{
+        left: 3%;
+    }
+    .text-4{
+        left: 40.8%;
+    }
+    .text-5{
+        left: 78%;
     }
     .format-publication{
         padding: 110px 10%;
@@ -874,7 +924,6 @@ hr{
     }
     .nav-title{
         order:3;
-        margin-left: 34.7%;
     }
     .format-publication{
         padding-left: 5%;
@@ -1033,15 +1082,19 @@ hr{
     .format-text{
         width: 100%;
     }
+    .card-curator{
+        margin: 24px 0;
+        padding: 0 20px;
+    }
+    .card-body-curator{
+        padding-bottom: 0;
+    }
     .group-curator{
         flex-direction: column;
     }
 }
 
 @media (max-width: 767px){
-    .nav-title{
-        margin-left: 21.5%;
-    }
     .header{
         width: 76%;
         margin-top: 100px;
@@ -1237,7 +1290,7 @@ hr{
     .text-1{
         padding: 20px 69px 20px 16px;
         width: 317px;
-        top: 29.2%;
+        top: 28%;
         left: 5.9%;
     }
     .text-1 p{
@@ -1248,7 +1301,7 @@ hr{
     }
     .text-2{
         padding: 20px 69px 20px 16px;
-        top: 46.2%;
+        top: 44.3%;
         left: 5.9%;
         width: 317px;
         height: 190px;
@@ -1260,7 +1313,7 @@ hr{
         padding: 20px 69px 20px 16px;
         width: 317px;
         height: 190px;
-        top: 63.5%;
+        top: 61.6%;
         left: 5.9%;
     }
     .text-3 p{
@@ -1268,7 +1321,7 @@ hr{
     }
     .text-4{
         padding: 20px 59px 20px 16px;
-        top: 80.4%;
+        top: 78.6%;
         left: 5.9%;
         height: 190px;
         width: 317px;
@@ -1278,7 +1331,7 @@ hr{
     }
     .text-5{
         padding: 20px 69px 20px 16px;
-        top: 97.6%;
+        top: 96%;
         left: 5.9%;
         width: 317px;
     }
