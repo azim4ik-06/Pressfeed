@@ -664,6 +664,7 @@ body{
 }
 .accordion-button.active{
     color: #4054F9;
+    background-color: #fff;
 }
 .accordion-body{
     width: 86%;
