@@ -445,6 +445,45 @@
       </div>
     </div>
   </div>
+
+  <div class="overlay-demo overlay-demo-2 d-none position-absolute" id="overlay"></div>
+  <div class="demo-version demo-version-2 d-none d-flex flex-column justify-content-center align-items-center position-fixed">
+    <button class="btn btn-X btn-X-demo position-absolute top-0 end-0 mt-4 me-3" type="button"><img src="img/nav-close.svg" width="21" height="21" alt=""></button>
+    <div class="header-demo d-flex flex-column justify-content-center align-items-center">
+      <h1 class="header-text-demo">Куратор</h1>
+      <p class="text-demo">Заполните форму и наши менеджеры свяжутся с вами</p>
+      <form class="needs-validation needs-validation-demo" data-id="needs-validation" novalidate>
+        <div>
+          <label for="validationDefault01" class="form-label">Имя*:</label>
+          <input type="text" class="form-control form-demo" id="validationDefault01" placeholder="Иван" required>
+        </div>
+        <div>
+          <label for="validationDefault02" class="form-label label-demo">Электронная почта*:</label>
+          <input type="text" class="form-control form-demo" id="validationDefault02" placeholder="ivan@mail.com" required>
+        </div>
+        <div>
+          <label for="validationDefaultUsernameDemo" class="form-label label-demo">Телефон*:</label>
+          <div class="input-group input-group-demo">
+            <input type="text" class="form-control form-demo" id="validationDefaultUsernameDemo" placeholder="+38 000 000 00 00" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-form-demo" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="demo-thanks d-none d-flex flex-column justify-content-center align-items-cente position-fixed">
+    <button class="btn btn-X btn-X-demo-thanks position-absolute top-0 end-0 mt-4 me-3" type="button"><img src="img/nav-close.svg" width="21" height="21" alt=""></button>
+    <div class="header-demo d-flex flex-column justify-content-center align-items-center">
+      <h1 class="header-demo-thanks">Спасибо</h1>
+      <p class="text-demo-thanks">Ваше сообщение отправленно!
+        Наши менеджеры свяжутся с вами в ближайшее время</p>
+        <img src="img/sms.svg" alt="">
+    </div>
+  </div>
+
   <div class="container num-run-main">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-4">
@@ -775,6 +814,7 @@
 <script src="js/navbar.js"></script>
 <script src="js/copy-img-slide.js"></script>
 <script src="js/scroll-x.js"></script>
+<script src="js/curator.js"></script>
 <script src="js/num-run-scroll.js"></script>
 <script src="js/scroll-x-pressefeed.js"></script>
 <script src="js/accordion.js"></script>

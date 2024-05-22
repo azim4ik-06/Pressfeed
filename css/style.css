@@ -517,6 +517,10 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+.btn-curator:hover{
+    background: #4054F9;
+    color: #fff;
+}
 .custom-ul{
     list-style-type: none;
     padding: 0;
@@ -543,6 +547,12 @@ body{
     background: #4054F9;
     font-size: 20px;
     font-weight: 600;
+}
+.btn-curator-2:hover{
+    border-radius: 10px;
+    border: 1px solid #4054F9;
+    background: #FFF;
+    color: #4054F9;
 }
 .plashka{  
     top: 25px;
@@ -708,6 +718,75 @@ body{
 hr{
     width: 100%;
     color: #414141;
+}
+
+.overlay-demo{
+    z-index: 888;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    backdrop-filter: blur(34px);
+    background: rgba(6, 18, 36, 0.7);
+}
+.demo-version{
+    z-index: 900;
+    border-radius: 4px;
+    background: rgb(222, 238, 252);
+    width: 550px;
+    top: 25%;
+    left: 35%;
+    padding: 25px 35px 40px 65px;
+}
+.header-text-demo{
+    font-size: 30px;
+}
+.text-demo{
+    font-size: 18px;
+    width: 360px;
+    text-align: center;
+}
+.label-demo{
+    margin-top: 20px;
+}
+.form-demo{
+    width: 420px;
+    border: 1px solid rgba(6, 18, 36, 0.9);
+    border-radius: 48px;
+    background: rgb(255, 255, 255);
+}
+.btn-form-demo{
+    margin: 30px 20% 0;
+    border-radius: 50px;
+    background: rgb(16, 100, 229);
+    color: #fff;
+    width: 220px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-form-demo:hover{
+    border: 1px solid #4054F9;
+    background: #FFF;
+    color: #4054F9;
+}
+.demo-thanks{
+    top: 25%;
+    left: 35%;
+    width: 555px;
+    height: 380px;
+    z-index: 1000;
+    border-radius: 4px;
+    background: rgb(222, 238, 252);
+}
+.header-demo-thanks{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.text-demo-thanks{
+    font-size: 18px;
+    width: 360px;
+    text-align: center;
 }
 
 @media (width >= 1200px) and (width <= 1500px){
