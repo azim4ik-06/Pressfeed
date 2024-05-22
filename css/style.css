@@ -725,7 +725,7 @@ hr{
     top: 0;
     left: 0;
     width: 100%;
-    height: 1000%;
+    height: 1100%;
     backdrop-filter: blur(34px);
     background: rgba(6, 18, 36, 0.7);
 }
@@ -988,6 +988,13 @@ hr{
     .publication-pressfeed{
         padding: 140px 0 140px 110px;
     }
+    .demo-version{
+        left: 20%;
+    }
+    .demo-thanks{
+        top: 30%;
+        left: 20%;
+    }
 }
 
 
@@ -1122,6 +1129,14 @@ hr{
     .num-width{
         padding-left: 11%;
         width: 408px;
+    }
+    .demo-version{
+        left: 15%;
+        top: 20%;
+    }
+    .demo-thanks{
+        top: 20%;
+        left: 15%;
     }
 }
 
@@ -1327,6 +1342,42 @@ hr{
     }
     .gap-2{
         margin-top: 25px;
+    }
+    .header-demo{
+        max-width: 100%;
+    }
+    .header-text-demo{
+        font-size: 20px;
+    }
+    .text-demo{
+        font-size: 14px;
+        width: 230px;
+    }
+    .demo-version{
+        left: 5%;
+        width: 90%;
+    }
+    .form-label{
+        padding-left: 15%;
+    }
+    .form-demo{
+        max-width: 70%;
+        height: 40px;
+        margin: 0 10%;
+        padding: 13px 22px;
+    }
+    .input-group-demo{
+        max-width: 100% !important;
+    }
+    .demo-thanks{
+        max-width: 90%;
+        top: 15%;
+        left: 5%;
+        height: 450px;
+    }
+    .text-demo-thanks{
+        width: 280px;
+        font-size: 16px;
     }
 }
 
